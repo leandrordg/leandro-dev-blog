@@ -2,15 +2,21 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
+import { Footer } from "@/components/footer";
+import { Navbar } from "@/components/navbar";
 import { ThemeProvider } from "@/components/theme-provider";
-import { Header } from "@/components/header";
 import { cn } from "@/lib/utils";
 
 const font = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Blog Next.js",
-  description: "",
+  title: "leandro-dev | blog",
+  description:
+    "Um Blog pessoal sobre notícias do mundo da tecnologia e programação.",
+  authors: {
+    name: "Leandro Rodrigues",
+    url: "https://leandro-dev.vercel.app",
+  },
 };
 
 export default function RootLayout({
@@ -20,15 +26,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR" suppressHydrationWarning>
-      <body className={cn("min-h-screen antialiased overflow-x-hidden", font.className)}>
+      <body className={cn("min-h-screen antialiased", font.className)}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
           disableTransitionOnChange
           enableSystem
         >
-          <Header />
-          <main>{children}</main>
+          <Navbar />
+          <main className="overflow-x-hidden">{children}</main>
+          <Footer />
         </ThemeProvider>
       </body>
     </html>
