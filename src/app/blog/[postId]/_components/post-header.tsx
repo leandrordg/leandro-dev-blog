@@ -4,7 +4,7 @@ export function PostHeader() {
   return (
     <div className="relative h-[500px]">
       <Image
-        src="/placeholder.svg"
+        src="/cat-nextjs.png"
         alt="Banner"
         width={1920}
         height={1000}

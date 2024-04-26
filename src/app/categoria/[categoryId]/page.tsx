@@ -24,7 +24,7 @@ export default function CategoryPage() {
           <PostCard imageUrl="/back2.png" />
           <PostCard imageUrl="/back3.png" />
           <PostCard imageUrl="/cat-nextjs.png" />
-          <PostCard imageUrl="/nextjs.png" />
+          <PostCard imageUrl="/nextjs.svg" />
           <PostCard imageUrl="/placeholder.svg" />
           <PostCard imageUrl="/alternative.svg" />
         </section>
