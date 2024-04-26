@@ -28,16 +28,16 @@ export function PostBreadcrumb() {
             <ChevronDownIcon />
           </DropdownMenuTrigger>
           <DropdownMenuContent align="start">
-            <BreadcrumbLink href="/categorias/nextjs">
+            <BreadcrumbLink href="/categoria/nextjs">
               <DropdownMenuItem className="font-bold">Next.js</DropdownMenuItem>
             </BreadcrumbLink>
-            <BreadcrumbLink href="/categorias/reactjs">
+            <BreadcrumbLink href="/categoria/reactjs">
               <DropdownMenuItem>React.js</DropdownMenuItem>
             </BreadcrumbLink>
-            <BreadcrumbLink href="/categorias/tailwindcss">
+            <BreadcrumbLink href="/categoria/tailwindcss">
               <DropdownMenuItem>Tailwind CSS</DropdownMenuItem>
             </BreadcrumbLink>
-            <BreadcrumbLink href="/categorias/shadcnui">
+            <BreadcrumbLink href="/categoria/shadcnui">
               <DropdownMenuItem>shadcn/ui</DropdownMenuItem>
             </BreadcrumbLink>
           </DropdownMenuContent>
