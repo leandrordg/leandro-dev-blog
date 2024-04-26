@@ -27,16 +27,16 @@ export function CategoryBreadcrumb() {
             <ChevronDownIcon />
           </DropdownMenuTrigger>
           <DropdownMenuContent align="start">
-            <BreadcrumbLink href="/categoria/nextjs">
+            <BreadcrumbLink href="/categorias/nextjs">
               <DropdownMenuItem className="font-bold">Next.js</DropdownMenuItem>
             </BreadcrumbLink>
-            <BreadcrumbLink href="/categoria/reactjs">
+            <BreadcrumbLink href="/categorias/reactjs">
               <DropdownMenuItem>React.js</DropdownMenuItem>
             </BreadcrumbLink>
-            <BreadcrumbLink href="/categoria/tailwindcss">
+            <BreadcrumbLink href="/categorias/tailwindcss">
               <DropdownMenuItem>Tailwind CSS</DropdownMenuItem>
             </BreadcrumbLink>
-            <BreadcrumbLink href="/categoria/shadcnui">
+            <BreadcrumbLink href="/categorias/shadcnui">
               <DropdownMenuItem>shadcn/ui</DropdownMenuItem>
             </BreadcrumbLink>
           </DropdownMenuContent>

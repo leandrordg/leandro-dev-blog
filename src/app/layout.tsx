@@ -25,7 +25,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-BR" suppressHydrationWarning>
+    <html lang="pt-BR" className="scroll-smooth" suppressHydrationWarning>
       <body className={cn("min-h-screen antialiased", font.className)}>
         <ThemeProvider
           attribute="class"
@@ -34,7 +34,7 @@ export default function RootLayout({
           enableSystem
         >
           <Navbar />
-          <main className="relative">{children}</main>
+          {children}
           <Footer />
         </ThemeProvider>
       </body>

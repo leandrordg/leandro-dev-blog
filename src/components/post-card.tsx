@@ -15,10 +15,10 @@ export function PostCard({ smallCard, imageUrl }: Props) {
       <Link href={`/blog/${crypto.randomUUID()}`}>
         <div className="flex items-center gap-x-4 border rounded-xl p-4 hover:bg-muted transition">
           <Image
+            src={imageUrl}
             alt={"Alternative Text"}
             className="object-cover aspect-square size-16 rounded-xl"
             height={400}
-            src={imageUrl}
             width={400}
           />
           <div>
@@ -38,10 +38,10 @@ export function PostCard({ smallCard, imageUrl }: Props) {
       <Card className="w-full rounded-lg overflow-hidden hover:bg-muted border-0 shadow-none transition">
         <div className="aspect-square">
           <Image
+            src={imageUrl}
             alt={"Alternative Text"}
             className="object-cover aspect-square w-full h-full"
             height={400}
-            src={imageUrl}
             width={400}
           />
         </div>

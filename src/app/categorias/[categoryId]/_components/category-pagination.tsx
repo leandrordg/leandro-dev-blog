@@ -9,7 +9,7 @@ import {
 
 export function CategoryPagination() {
   return (
-    <Pagination className="justify-end">
+    <Pagination className="justify-center">
       <PaginationContent>
         <PaginationItem>
           <PaginationPrevious href="#" />

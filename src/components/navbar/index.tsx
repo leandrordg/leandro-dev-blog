@@ -1,32 +1,30 @@
-"use client";
-
 import Link from "next/link";
-import { usePathname } from "next/navigation";
 
 import { ThemeToggle } from "@/components/theme-toggle";
 import { cn } from "@/lib/utils";
 import { RocketIcon } from "@radix-ui/react-icons";
+import { NavbarLinks } from "./navbar-links";
+import { NavbarSheetMenu } from "./navbar-sheet-menu";
 
 export function Navbar() {
-  const pathname = usePathname();
-
-  const isHome = pathname === "/";
-
   return (
-    <nav
-      className={cn(
-        "h-16 px-4 md:px-8 sticky top-0 left-0 w-full z-10",
-        !isHome && "bg-background border-b"
-      )}
-    >
-      <div className="flex items-center h-full">
-        <div>
+    <nav className="h-16 sticky top-0 px-4 !z-50 transition ease-in bg-background border-b">
+      <div className="flex items-center gap-x-4 h-full">
+        <div className="md:hidden">
+          <NavbarSheetMenu />
+        </div>
+        <div className="hidden md:block">
           <Link href={"/"} className="flex items-center gap-x-2 font-extrabold">
             <RocketIcon className="size-6" />
             leandro-dev
           </Link>
         </div>
-        <div className="ml-auto">
+
+        <div className="hidden md:block">
+          <NavbarLinks />
+        </div>
+
+        <div className="ml-auto flex items-center gap-x-2">
           <ThemeToggle />
         </div>
       </div>

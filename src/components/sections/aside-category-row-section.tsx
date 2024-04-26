@@ -1,5 +1,6 @@
 import React from "react";
-import { CategoryCard } from "../category-card";
+
+import { CategoryCard } from "@/components/category-card";
 
 type Props = {
   title: string;
