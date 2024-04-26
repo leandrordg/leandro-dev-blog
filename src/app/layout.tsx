@@ -26,7 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR" suppressHydrationWarning>
-      <body className={cn("min-h-screen antialiased", font.className)}>
+      <body className={cn("min-h-screen antialiased overflow-x-hidden", font.className)}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
@@ -34,7 +34,7 @@ export default function RootLayout({
           enableSystem
         >
           <Navbar />
-          <main className="overflow-x-hidden">{children}</main>
+          <main>{children}</main>
           <Footer />
         </ThemeProvider>
       </body>

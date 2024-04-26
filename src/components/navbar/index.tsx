@@ -15,7 +15,7 @@ export function Navbar() {
   return (
     <nav
       className={cn(
-        "h-16 px-4 md:px-8 fixed top-0 left-0 w-full z-10",
+        "h-16 px-4 md:px-8 sticky top-0 left-0 w-full z-10",
         !isHome && "bg-background border-b"
       )}
     >

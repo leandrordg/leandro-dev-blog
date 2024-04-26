@@ -19,16 +19,12 @@ export function PostHeader() {
           </h1>
           <div className="flex items-center space-x-4 text-muted-foreground">
             <div className="flex items-center space-x-2">
-              <img
-                alt="Avatar"
-                className="h-8 w-8 rounded-full"
-                height={32}
+              <Image
                 src="/placeholder.svg"
-                style={{
-                  aspectRatio: "32/32",
-                  objectFit: "cover",
-                }}
+                alt="Avatar"
                 width={32}
+                height={32}
+                className="size-8 rounded-full object-cover"
               />
               <span>John Doe</span>
             </div>

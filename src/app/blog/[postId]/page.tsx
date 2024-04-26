@@ -37,15 +37,15 @@ export default function PostPage({
 
           <p className="leading-7 [&:not(:first-child)]:mt-6">
             Jokester began sneaking into the castle in the middle of the night
-            and leaving jokes all over the place: under the king's pillow, in
+            and leaving jokes all over the place: under the king&apos;s pillow, in
             his soup, even in the royal toilet. The king was furious, but he
-            couldn't seem to stop Jokester.
+            couldn&apos;t seem to stop Jokester.
           </p>
 
           <p className="leading-7 [&:not(:first-child)]:mt-6">
             And then, one day, the people of the kingdom discovered that the
-            jokes left by Jokester were so funny that they couldn't help but
-            laugh. And once they started laughing, they couldn't stop.
+            jokes left by Jokester were so funny that they couldn&apos;t help but
+            laugh. And once they started laughing, they couldn&apos;t stop.
           </p>
 
           <Image
@@ -62,7 +62,7 @@ export default function PostPage({
           </p>
 
           <blockquote className="mt-6 border-l-2 pl-6 italic">
-            “After all,” he said, “everyone enjoys a good joke, so it's only
+            “After all,” he said, “everyone enjoys a good joke, so it&apos;s only
             fair that they should pay for the privilege.”
           </blockquote>
 
@@ -71,7 +71,7 @@ export default function PostPage({
           </h2>
 
           <p className="leading-7 [&:not(:first-child)]:mt-6">
-            The king's subjects were not amused. They grumbled and complained,
+            The king&apos;s subjects were not amused. They grumbled and complained,
             but the king was firm:
           </p>
 
@@ -83,7 +83,7 @@ export default function PostPage({
 
           <p className="leading-7 [&:not(:first-child)]:mt-6">
             As a result, people stopped telling jokes, and the kingdom fell into
-            a gloom. But there was one person who refused to let the king's
+            a gloom. But there was one person who refused to let the king&apos;s
             foolishness get him down: a court jester named Jokester.
           </p>
         </div>

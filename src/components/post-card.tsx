@@ -22,15 +22,11 @@ export function PostCard({ smallCard, imageUrl }: Props) {
             width={400}
           />
           <div>
-            <p className="text-sm font-medium text-gray-500 dark:text-gray-400">
-              Blog
-            </p>
+            <p className="text-xs text-muted-foreground">/blog</p>
             <h3 className="font-bold">
               The Art of Coffee: Brewing the Perfect Cup
             </h3>
-            <p className="text-sm text-gray-500 dark:text-gray-400">
-              by John Doe
-            </p>
+            <p className="text-sm text-muted-foreground">há 4 horas.</p>
           </div>
         </div>
       </Link>
